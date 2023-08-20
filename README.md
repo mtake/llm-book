@@ -4,6 +4,13 @@
 
 「[大規模言語モデル入門](https://www.amazon.co.jp/o/ASIN/4297136333/)」（技術評論社, 2023）のリポジトリです。
 
+## Mac上での再現メモ（mtake-mac ブランチ固有）
+- [chapter8/8-3-simcse-training.ipynb] 3, 2時間かかるところがある
+- [chapter8/8-4-simcse-faiss.ipynb] 10時間かかっても終わらないため中断
+- [chapter9/9-3-quiz-chatgpt.ipynb], [chapter9/9-5-quiz-chatgpt-plus-bpr.ipynb] ChatGPTに依存するため試していない
+- [chapter9/9-4-3-bpr-training.ipynb] 次のエラーで失敗する。`NotImplementedError: The operator 'aten::masked_scatter_' is not currently implemented for the MPS device.`
+- [chapter9/9-4-4-bpr-embedding.ipynb] 10時間かかっても終わらないため中断
+
 ## コード
 
 コードはすべて Google Colaboratory で動作確認を行なっています。
